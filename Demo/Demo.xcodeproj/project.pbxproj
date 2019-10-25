@@ -30,6 +30,7 @@
 		F0A3DCFA22D6D9E900CD1D39 /* UITextField+LeftImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3DCEA22D6D9E800CD1D39 /* UITextField+LeftImage.m */; };
 		F0A3DCFB22D6D9E900CD1D39 /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3DCEC22D6D9E800CD1D39 /* NSUserDefaults+Extension.m */; };
 		F0A3DCFF22D6DAE800CD1D39 /* UIDevice+iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3DCFE22D6DAE800CD1D39 /* UIDevice+iPad.m */; };
+		F0AB44432362D7A90076EF34 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB44422362D7A90076EF34 /* UIView+CustomBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,8 @@
 		F0A3DCEC22D6D9E800CD1D39 /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
 		F0A3DCFD22D6DAE800CD1D39 /* UIDevice+iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+iPad.h"; sourceTree = "<group>"; };
 		F0A3DCFE22D6DAE800CD1D39 /* UIDevice+iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+iPad.m"; sourceTree = "<group>"; };
+		F0AB44412362D7A90076EF34 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
+		F0AB44422362D7A90076EF34 /* UIView+CustomBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				F0A3DCFE22D6DAE800CD1D39 /* UIDevice+iPad.m */,
 				F0549B55235D9C0E00E9A49A /* UIView+Shadow.h */,
 				F0549B56235D9C0E00E9A49A /* UIView+Shadow.m */,
+				F0AB44412362D7A90076EF34 /* UIView+CustomBorder.h */,
+				F0AB44422362D7A90076EF34 /* UIView+CustomBorder.m */,
 			);
 			name = ZYCategories;
 			path = ../ZYCategories;
@@ -250,6 +255,7 @@
 				F0549B57235D9C0E00E9A49A /* UIView+Shadow.m in Sources */,
 				F0A3DCF222D6D9E900CD1D39 /* UIDevice+IP.m in Sources */,
 				F0A3DCF922D6D9E900CD1D39 /* UINavigationController+Rotation.m in Sources */,
+				F0AB44432362D7A90076EF34 /* UIView+CustomBorder.m in Sources */,
 				F0A3DCF422D6D9E900CD1D39 /* NSObject+Extension.m in Sources */,
 				F0A3DCFF22D6DAE800CD1D39 /* UIDevice+iPad.m in Sources */,
 				F0A3DCF322D6D9E900CD1D39 /* UITableViewCell+ConfigurationMethod.m in Sources */,
