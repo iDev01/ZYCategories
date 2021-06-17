@@ -18,12 +18,12 @@ IB_DESIGNABLE
     self.layer.borderColor = borderColor.CGColor;
 }
 
-- (CGFloat)boarderWidth {
+- (CGFloat)borderWidth {
     return self.layer.borderWidth;
 }
 
-- (void)setBoarderWidth:(CGFloat)boarderWidth {
-    self.layer.borderWidth = boarderWidth;
+- (void)setBorderWidth:(CGFloat)borderWidth {
+    self.layer.borderWidth = borderWidth;
 }
 
 - (CGFloat)cornerRadius {
