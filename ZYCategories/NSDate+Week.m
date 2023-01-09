@@ -29,7 +29,7 @@
 }
 
 /** return 一~七 */
-- (NSInteger)week_cn {
+- (NSString *)week_cn {
 
     NSArray<NSString *> *weekdays = [NSArray arrayWithObjects: [NSNull null], @"七", @"一", @"二", @"三", @"四", @"五", @"六", nil];
 
@@ -43,7 +43,7 @@
 
     NSDateComponents *theComponents = [calendar components:calendarUnit fromDate:self];
 
-    return weekdays[theComponents.weekday].integerValue;
+    return weekdays[theComponents.weekday];
 }
 
 @end

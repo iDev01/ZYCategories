@@ -14,6 +14,6 @@
 - (NSInteger)week;
 
 /** return 一~七 */
-- (NSInteger)week_cn;
+- (NSString *)week_cn;
 
 @end
