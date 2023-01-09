@@ -13,4 +13,7 @@
 /** return 1~7 */
 - (NSInteger)week;
 
+/** return 一~七 */
+- (NSInteger)week_cn;
+
 @end
