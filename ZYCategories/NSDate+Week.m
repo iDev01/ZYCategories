@@ -28,10 +28,10 @@
     return weekdays[theComponents.weekday].integerValue;
 }
 
-/** return 一~七 */
+/** return 一~日 */
 - (NSString *)week_cn {
 
-    NSArray<NSString *> *weekdays = [NSArray arrayWithObjects: [NSNull null], @"七", @"一", @"二", @"三", @"四", @"五", @"六", nil];
+    NSArray<NSString *> *weekdays = [NSArray arrayWithObjects: [NSNull null], @"日", @"一", @"二", @"三", @"四", @"五", @"六", nil];
 
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 
